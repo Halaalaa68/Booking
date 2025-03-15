@@ -19,7 +19,7 @@ const Navbar = () => {
           ☰
         </button>
       </div>
-      <Link href='/offers'>
+      <Link href='/'>
         <button className="bg-blue-500 rounded-sm px-6 py-2 text-xl text-white">
           إنضم إلينا
         </button>
