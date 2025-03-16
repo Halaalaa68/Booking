@@ -35,7 +35,7 @@ const Offers = () => {
   ];
 
   return (
-    <div className="p-5 w-[75%] m-auto">
+    <div className="p-5 sm:w-[75%] w-[90%] m-auto">
       {offers.map((offer, index) => (
         <div key={index} className="border border-gray-300 rounded-lg my-5 p-5 bg-white flex flex-col justify-between">
           <div className="flex justify-between items-center">
