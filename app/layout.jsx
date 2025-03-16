@@ -7,6 +7,7 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="ar" className="h-full">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>منصة خدمات متكاملة عبر الإنترنت</title>
       </head>
       <body className="relative min-h-screen flex flex-col">
