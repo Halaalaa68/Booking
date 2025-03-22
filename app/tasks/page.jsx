@@ -79,7 +79,11 @@ const tasks = () => {
                                         </div>
                                     </div>
                                     <div>
-                                        <button className='w-full bg-blue-700 text-white rounded-md p-2 mt-2 hover:bg-blue-800 duration-500 transition-all'><Link href='/TaskList'>ابدأ الحجز</Link></button>
+                                        <Link className='cursor-pointer' href='/TaskList'>
+                                        <button className='w-full bg-blue-700 text-white rounded-md p-2 mt-2 hover:bg-blue-800 duration-500 transition-all'>
+                                        ابدأ الحجز
+                                        </button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
