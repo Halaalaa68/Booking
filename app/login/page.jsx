@@ -30,6 +30,7 @@ const Login = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
+            className='border rounded-md border-gray-400'
             style={{ width: '100%', padding: '8px', margin: '10px 0' }}
           />
         </div>
@@ -41,6 +42,7 @@ const Login = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
+            className='border rounded-md border-gray-400'
             style={{ width: '100%', padding: '8px', margin: '10px 0' }}
           />
         </div>
